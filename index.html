@@ -103,6 +103,10 @@
 	#end{
 		font:100px/50px Brush Script MT, Brush Script Std, cursive;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		transition: text-shadow 2s;
+	}
+	#end:hover{
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	}
 	#drk{
 		width:auto;
@@ -194,8 +198,8 @@
 		<br>
 		<a href="#enter"><h3>-catboy enters the room</h3></a>
 		<a href="#lay"><h3>-catboy lays near you</h3></a>
-		<h3>-catboy tells why he cant sleep alone</h3>
-		
+		<a href="#why"><h3>-catboy tells why he cant sleep alone</h3></a>
+		<a href="#cuddles"><h3>-cuddles</h3></a>
 	</nav>
 	<article id="artcl">
 		<br>
@@ -219,9 +223,12 @@
 		<p>come a little closer to me sweetie~</p>
 		<p></p>
 		<p>you definitely are blushing...</p>
-		<p>if you were to ask why cant I sleep alone-</p>
+		<p id="why">if you were to ask why cant I sleep alone-</p>
 		<p>I just get really scared when im alone...</p>
 		<p>youre a really nice guy I f-feel safe with~</p>
+		<p></p>
+		<p></p>
+		<p></p>
 		<p><i>*awkard silence*</i></p>
 		<p></p>
 		<p></p>
@@ -230,37 +237,7 @@
 		<p>just a little bit i p-promise...</p>
 		<p></p>
 		<p>o-okay then~</p>
-		<p><i onclick="kladzenie()">*cuddling*</i></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
-		<p></p>
+		<p><i id="cuddles" onclick="kladzenie()">*cuddling*</i></p>
 		<p></p>
 		<p></p>
 		<p></p>
